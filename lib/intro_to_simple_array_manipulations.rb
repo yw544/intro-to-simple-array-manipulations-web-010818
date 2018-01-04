@@ -1,5 +1,5 @@
-def using_push(a,b)
-array.push(2)
+def using_push(array,string)
+array.push(string)
 end
 
 def using_unshift(a,b)
