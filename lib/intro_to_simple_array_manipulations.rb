@@ -1,7 +1,7 @@
-def using_push
+def using_push(1, 2)
+array.push(2)
 
-
-def using_unshift
+def using_unshift(1, 2)
 
 
 def using_pop
@@ -29,6 +29,3 @@ def using_flatten
 
 
 def using_delete
-
-
-  
