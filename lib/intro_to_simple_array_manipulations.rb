@@ -36,10 +36,14 @@ def using_uniq(array)
 array.uniq
 end
 
-def using_flatten(array,element)
-array.delete(element)
+def using_flatten(array)
+array.flatten
 end
 
-def using_delete(array, number)
+def using_delete(array, element)
+  array.delete(element)
+end
+
+def using_delete_at(array, number)
 array.delete_at(number)
 end
