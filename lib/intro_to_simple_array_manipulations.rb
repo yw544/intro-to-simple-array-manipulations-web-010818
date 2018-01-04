@@ -1,4 +1,4 @@
-def using_push(1, 2)
+def using_push(a,b)
 array.push(2)
 end
 
