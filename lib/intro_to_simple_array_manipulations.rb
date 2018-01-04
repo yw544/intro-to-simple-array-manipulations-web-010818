@@ -32,14 +32,14 @@ def using_insert(array,element)
 
 end
 
-def using_uniq
-
+def using_uniq(array)
+array.uniq
 end
 
-def using_flatten
-
+def using_flatten(array,element)
+array.delete(element)
 end
 
-def using_delete
-
+def using_delete(array, number)
+array.delete_at(number)
 end
